@@ -411,6 +411,17 @@ class URLResolver {
 				return $result;
 			}
 
+			#if redirect in meta tag found then redirect
+			$meta_refresh_tag = $html_dom->find('meta[http-equiv=refresh]', 0);
+			if (isset($meta_refresh_tag->content) &&
+		    	preg_match('/^\s*(\d+)\s*;\s*URL=(.*)/i', $meta_refresh_tag->content, $matches)) {
+					if (!$matches[1] <= 2) {
+						$result->setRedirectTarget($this->fullyQualifyURI($matches[2], $url));
+					}
+				$this->closeHTMLDOM();
+				return $result;					
+			}
+
 			# If we cannot find the <head>, then we are done processing this page.
 			$head = $html_dom->find('head', 0);
 			if (!isset($head)) {
