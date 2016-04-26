@@ -1,6 +1,7 @@
 {
     "name": "mdf/php-url-resolver",
     "description": "PHP URLResolver: One of the best URLResolver in php that attempts to resolve URLs to the final destination",
+    "minimum-stability": "dev",
     "version": "1.1",
     "license": "MIT",
     "authors": [
