@@ -1,5 +1,5 @@
 {
-    "name": "mdf/URLResolver",
+    "name": "mdf/php-url-resolver",
     "description": "PHP URLResolver: One of the best URLResolver in php that attempts to resolve URLs to a final",
     "version": "1.1",
     "license": "MIT",
