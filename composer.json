@@ -1,0 +1,25 @@
+{
+    "name": "mdf/URLResolver",
+    "description": "PHP URLResolver: One of the best URLResolver in php that attempts to resolve URLs to a final",
+    "version": "1.5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Wright",
+            "homepage": "http://www.mattwright.com/",
+            "role": "Developer"
+        },
+        {
+            "name": "Mohammad Damavandi",
+            "homepage": "http://damavandi.ws/",
+            "role": "Contributor"
+        }        
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "thauex/simple-html-dom": ">=1.5"
+    },
+    "autoload": {
+        "psr-4": { "mdf\\URLResolver": "" }
+    }
+}
