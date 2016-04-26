@@ -20,6 +20,6 @@
         "thauex/simple-html-dom": ">=1.5"
     },
     "autoload": {
-        "psr-4": { "mdf\\URLResolver": "" }
+        "psr-4": { "mdf\\URLResolver\\": "" }
     }
 }
