@@ -12,6 +12,7 @@ URLs, URLResolver.php attempts to solve this issue.
 - Follows 301, 302, and 303 redirects found in HTTP headers
 - Follows [Open Graph] URL &lt;meta&gt; tags found in web page &lt;head&gt;
 - Follows [Canonical] URL &lt;link&gt; tags found in web page &lt;head&gt;
+- Follows URL in refresh meta tag
 - Aborts download quickly if content type is not an HTML page
 
 I am open to additional suggestions for improvement.
