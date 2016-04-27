@@ -1,6 +1,6 @@
 {
     "name": "mdf/php-url-resolver",
-    "description": "PHP URLResolver: One of the best URLResolver in php that attempts to resolve URLs to the final destination",
+    "description": "PHP URLResolver: URLResolver in php that attempts to resolve URLs to the final destination",
     "minimum-stability": "dev",
     "version": "1.1",
     "license": "MIT",
@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "thauex/simple-html-dom": ">=1.5"
+        "thauex/simple-html-dom": "dev-master"
     },
     "autoload": {
         "psr-4": { "mdf\\URLResolver\\": "" }
