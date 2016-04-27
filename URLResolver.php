@@ -1,4 +1,8 @@
-<?php require_once('lib/simple_html_dom.php');
+<?php 
+
+namespace Mdf\PhpUrlResolver;
+
+require_once(__DIR__ . '/lib/simple_html_dom.php');
 /*******************************************************************************
 * Copyright (c) 2011-2014 by Matt Wright and contributors
 * https://github.com/mattwright/URLResolver.php
