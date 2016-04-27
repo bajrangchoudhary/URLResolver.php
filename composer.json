@@ -1,6 +1,8 @@
 {
     "name": "mdf/php-url-resolver",
     "description": "URLResolver in php that attempts to resolve URLs to the final destination",
+    "homepage": "https://github.com/mdf092/URLResolver.php",
+    "keywords": ["PHP", "URL", "Resolver", "URLResolver", "simplehtmldom"],    
     "type": "library",
     "require": {
         "php": ">=5.3.2",
