@@ -21,7 +21,9 @@ I am open to additional suggestions for improvement.
 Resolving a URL can be as easy as:
 
 ``` php
-<?php require_once('URLResolver.php');
+<?php 
+
+use Mdf\PhpUrlResolver;
 
 $resolver = new URLResolver();
 print $resolver->resolveURL('http://goo.gl/0GMP1')->getURL();
@@ -34,7 +36,10 @@ for storing cookies during the session.  Some web sites will test the browser
 for cookie support, so this will enhance your results.
 
 ``` php
-<?php require_once('URLResolver.php');
+<?php 
+
+use Mdf\PhpUrlResolver;
+
 $resolver = new URLResolver();
 
 # Identify your crawler (otherwise the default will be used)
