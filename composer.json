@@ -3,8 +3,7 @@
     "description": "URLResolver in php that attempts to resolve URLs to the final destination",
     "type": "library",
     "require": {
-        "php": ">=5.3.2",
-        "thauex/simple-html-dom": "~1.5@dev"
+        "php": ">=5.3.2"
     },
     "license": "MIT",
     "authors": [
