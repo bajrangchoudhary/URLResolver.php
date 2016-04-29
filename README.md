@@ -17,6 +17,7 @@ URLs, URLResolver.php attempts to solve this issue.
 
 I am open to additional suggestions for improvement.
 
+
 ## Usage
 
 Resolving a URL can be as easy as:
