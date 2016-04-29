@@ -6,7 +6,7 @@
     "type": "library",
     "require": {
         "php": ">=5.3.2",
-        "thauex/simple-html-dom" : "dev-master"
+        "thauex/simple-html-dom": "dev-master"
     },
     "license": "MIT",
     "authors": [
