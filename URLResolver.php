@@ -2,7 +2,7 @@
 
 namespace Mdf\PhpUrlResolver;
 
-use ThauEx\SimpleHtmlDom;
+use ThauEx\SimpleHtmlDom\SimpleHtmlDom;
 
 /*******************************************************************************
 * Copyright (c) 2011-2014 by Matt Wright and contributors
